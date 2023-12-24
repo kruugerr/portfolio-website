@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Zachs Website</title>
+
+    <link rel="icon" href="Z.png" type="image/x-icon">
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">z<span>a</span>ch</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Home</a></li>
+
+            <li><a href="#about" class="nav__link">About</a></li>
+
+            <li>
+              <a href="#services" class="nav__link">Relevant Coursework</a>
+            </li>
+
+            <li><a href="#portfolio" class="nav__link">Work Experience</a></li>
+
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ui uil-times"></i>
+          </div>
+        </div>
+
+        <div class="nav__socials">
+          <a
+            href="https://www.linkedin.com/in/zachgould123456789/"
+            target="_blank"
+            class="nav__social-link"
+          >
+            <i class="uil uil-linkedin"></i>
+          </a>
+
+          <a
+            href="https://github.com/kruugerr"
+            target="_blank"
+            class="nav__social-link"
+          >
+            <i class="uil uil-github"></i>
+          </a>
+
+          <a
+            href="Gould, Zach - Resume.pdf"
+            target="_blank"
+            class="nav__social-link"
+          >
+            <i class="uil uil-file-graph"></i>
+          </a>
+        </div>
+
+        <div class="nav__btns">
+          <a href="#contact" class="nav__link-btn btn">Let's Talk</a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <!-- HOME -->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle">Welcome To My World</span>
+            <h1 class="home__title">
+              Hi! I'm Zach Gould, <span>Computer Science</span> Student
+            </h1>
+          </div>
+
+          <img src="Zach thumbs.png" alt="" class="home__img" />
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <img src="IMG_9681.JPG" alt="" class="about__img" />
+
+          <div class="about__content">
+            <h2 class="section__title">About Me</h2>
+
+            <p class="about__description">
+              I am a second year computer science student with a passion for creating, inovating and problem solving. The tabs below contain other important information about me: 
+            </p>
+
+            <div class="tabs__btns">
+              <span class="tabs__btn tab__active" data-target="#skills"
+                >Main Skills</span
+              >
+              <span class="tabs__btn" data-target="#awards"
+                >Awards & Certification</span
+              >
+              <span class="tabs__btn" data-target="#education">Education</span>
+              <span class="tabs__btn" data-target="#interests">Interests</span>
+            </div>
+
+            <div class="tabs__content">
+              <div class="tabs__item tab__active" data-content id="skills">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Experience with Coding Languages:</span>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>R</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>C</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="awards">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>B1 French Bilingual Certificate</span> - DELF
+                    <span>2022</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Waterloo Team Math Contest</span> - Winner
+                    <span>2021</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>OFSAA Volleyball Player</span> - Libero
+                    <span>2021</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="education">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Honors BSc</span> - Computer Science
+                    <span>Wilfrid Laurier University</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Minor</span> - Sustainability
+                    <span>Wilfrid Laurier University</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>High School Diploma</span> - Streetsville Secondary
+                    School
+                    <span>2022</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="interests">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>D2 Volleyball</span> - Wilfrid Laurier University
+                    <span>Intramurals</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Competitive baseball</span> - Mississauga North Tigers
+                    <span>2010-2020</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Skier</span> - Advanced
+                    <span>2008 - Current</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Relevant Coursework -->
+      <section class="services section" id="services">
+        <h2 class="section__title">Relevant Coursework</h2>
+        <p class="section__description">
+          Below are some important courses that I have taken for my computer science degree alongside my sustainability minor. 
+        </p>
+
+        <div class="services__container container grid">
+          <div class="services__item">
+            <i class="uil uil-object-group services__icon"></i>
+
+            <h3 class="services__title">
+              Introduction to Object Oriented Programming
+            </h3>
+            <p class="services__description">
+              Fundamentals of object-oriented programming, classes, subclasses,
+              inheritance, references, overloading, event-driven and concurrent
+              programming.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-server services__icon"></i>
+
+            <h3 class="services__title">Data Structures I</h3>
+            <p class="services__description">
+              Introduction to the study of data structures and their
+              applications. Recursion, searching, sorting. Queues, stacks,
+              heaps. Introduction to the analysis of algorithms, big “O”
+              notation.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-chart-line services__icon"></i>
+
+            <h3 class="services__title">Introduction to Data Analytics</h3>
+            <p class="services__description">
+              Big data analytics methods and tools. Diagnosing, cleaning, transforming,
+              visualizing, and modeling data, utilizing tools like Excel, Google
+              spreadsheets, Python, and R.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-calculator-alt services__icon"></i>
+
+            <h3 class="services__title">Calculus I</h3>
+            <p class="services__description">
+              Differential and integral calculus of
+              functions of a single variable; the Mean Value Theorem;
+              the Fundamental Theorem of Calculus and
+              techniques of integration; introduction to series.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-bluetooth-b services__icon"></i>
+
+            <h3 class="services__title">Digital Electronics</h3>
+            <p class="services__description">
+              Digital logic: logic gates, circuit analysis using Boolean algebra
+              and Karnaugh maps, number systems and codes, flip-flops,
+              multivibrators, counters and shift registers.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-wind-sun services__icon"></i>
+
+            <h3 class="services__title">
+              Environment, Sustainability and Society
+            </h3>
+            <p class="services__description">
+              Explores human interactions with the natural environment.
+              Environmental challenges are explored. Topics include food, water and energy
+              systems; climate change adaptation;
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- WORK EXPERIENCE -->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Work Experience</h2>
+        <p class="section__description">
+            Here is my updated work experience. There is information regarding each position contained in my resume which you can find in both the header and footer of this site.
+        </p>
+
+        <div class="portfolio__container container grid">
+          <div class="portfolio__item">
+            <img
+              src="City of Mississauga.png"
+              alt=""
+              class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">May 2023 - September 2023</p>
+              <h3 class="portfolio__title">Parks and Forestry Student</h3>
+              <p class="portfolio__description">
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio__item">
+            <img src="metro.png" alt="" class="portfolio__img" />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">August 2020 - May 2023</p>
+              <h3 class="portfolio__title">Meat Clerk</h3>
+              <p class="portfolio__description">
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio__item">
+            <img src="MNBA.png" alt="" class="portfolio__img" />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">July 2019</p>
+              <h3 class="portfolio__title">Tournament Coordinator</h3>
+              <p class="portfolio__description">
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h2 class="section__title">Contact Me</h2>
+
+            <p class="contact__description">
+              Connect with me via phone:
+              <a href="tel:+6472216521">647-221-6521</a> or email:
+              <a href="mailto:zachgould2004@gmail.com"
+                >zachgould2004@gmail.com</a
+              >
+            </p>
+
+            <form class="contact__form" id="contact-form">
+              <div class="contact__form-input">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Name *"
+                  class="contact__input"
+                  id="contact-name"
+                />
+              </div>
+
+              <div class="contact__form-input">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your e-mail"
+                  class="contact__input"
+                  id="contact-email"
+                />
+              </div>
+
+              <div class="contact__form-input">
+                <input
+                  type="text"
+                  name="subject"
+                  placeholder="Write a Subject"
+                  class="contact__input"
+                  id="contact-subject"
+                />
+              </div>
+
+              <div class="contact__form-input">
+                <textarea
+                  name="message"
+                  id="contact-message"
+                  class="contact__input textarea"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+
+              <input type="submit" value="Submit" class="btn" />
+
+              <p class="error__message" id="error-message"></p>
+            </form>
+          </div>
+          <img src="IMG_2072.JPG" alt="" class="contact__img" />
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="index.html" class="footer__logo">z<span>a</span>ch</a>
+        <div class="footer__socials">
+          <a
+            href="https://www.linkedin.com/in/zachgould123456789/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="uil uil-linkedin"></i>
+          </a>
+
+          <a
+            href="https://github.com/kruugerr"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="uil uil-github"></i>
+          </a>
+
+          <a
+            href="Gould, Zach - Resume.pdf"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="uil uil-file-graph"></i>
+          </a>
+        </div>
+
+        <p class="footer__copyright">&copy; 2023. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- SCROLL UP -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+
+    <!-- EMAIL JS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <!-- MAIN JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
